@@ -1,0 +1,49 @@
+{
+    "name": "goomento/module-doc-builder",
+    "description": "Sample And Document Module For Goomento Page Builder Extension",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0"
+    ],
+    "homepage": "https://goomento.com",
+    "authors": [
+        {
+            "name": "Goomento",
+            "homepage": "https://goomento.com",
+            "role": "Developer Team"
+        }
+    ],
+    "keywords": [
+        "magento 2",
+        "magento 2 page builder",
+        "magento page builder",
+        "goomento page builder",
+        "goomento marketing tool",
+        "page builder",
+        "pagebuilder",
+        "goomento",
+        "page builder settings",
+        "landing page",
+        "magento 2 landing page",
+        "free magento 2 page builder",
+        "free magento 2 extension",
+        "page",
+        "block",
+        "section",
+        "template",
+        "marketing"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Goomento\\DocBuilder\\": ""
+        }
+    },
+    "require": {
+        "goomento/module-page-builder": "^0.2.2"
+    },
+    "minimum-stability": "dev"
+}

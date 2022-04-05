@@ -1,0 +1,28 @@
+<?php
+/**
+ * @package Goomento_DocBuilder
+ * @link https://github.com/Goomento/DocBuilder
+ */
+
+declare(strict_types=1);
+
+use Goomento\DocBuilder\Builder\Widgets\HelloWorld;
+use Goomento\PageBuilder\Block\View\Element\Widget;
+use Goomento\PageBuilder\Helper\EscaperHelper;
+
+/**
+ * @var Widget $block
+ * @var HelloWorld $widget
+ * @var array $settings
+ */
+
+$widget = $block->getWidget();
+$settings = $block->getSettingsForDisplay();
+
+/**
+ * `hello-world-name` is the key, which is set in the `registerControls`
+ * @see Goomento\DocBuilder\Builder\Widgets\HelloWorld::registerControls()
+ */
+if (!empty($settings['hello-world-name'])) : ?>
+    <p class="hello-world"><?= __('Hello World! My name is %1', EscaperHelper::escapeHtml($settings['hello-world-name'])) ?></p>
+<?php endif;

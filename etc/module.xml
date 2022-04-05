@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @package Goomento_DocBuilder
+ * @link https://github.com/Goomento/DocBuilder
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Goomento_DocBuilder" setup_version="1.0.0" >
+        <sequence>
+            <module name="Goomento_PageBuilder" />
+        </sequence>
+    </module>
+</config>
