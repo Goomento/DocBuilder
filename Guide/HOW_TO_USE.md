@@ -1,12 +1,25 @@
 # How To Use Page Builder
 
-### 1. Use default behavior to overwrite the Magento content
-Go to specific Magento entity (CMS page/blocks or product) edit page
-Open tab Page Builder
-![Instruction ](https://i.imgur.com/y656InF.png)
-Then
-1. **Choose the content** or leave it blank then click on _Page Builder button_ on the top bar, It'll create automatically
-2. **Enable PageBuilder**, this will overwrite the main content of this Magento entity
+### 1. Use the Goomento Builder Assistant
+Go to specific Magento entity (CMS page/blocks or product ...) editable page
+
+![Use the Goomento Builder Assistant](https://i.imgur.com/CeSYeBL.png)
+
+Some buttons might be considered
+
+- **Migrate Now** Migrate the old content - which is not compatible with Page Builder.
+- **Create New** Create new Page Builder entity then attach it into content.
+- **Open Editor** Open Page Builder Editor for editing
+
+You can also de-activate the Page Builder Assistance, then back to Magento Editor
+
+![De-activate the Page Builder Assistance](https://i.imgur.com/PnladKO.png)
+
+For permanent deactivating Builder Assistance, you have set the config here to `No`
+
+    Stores > Settings > Configuration > Goomento > Page Builder > Builder Assistance > Active
+
+![Permanent deactivating Builder Assistance](https://i.imgur.com/2IBBzIZ.png)
 
 ### 2. Use the WYSIWYG widget in any text editor
 Open text editor, then select the widget chosen

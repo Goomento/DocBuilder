@@ -7,6 +7,7 @@ declare(strict_types=1);
 
 namespace Goomento\DocBuilder;
 
+use Goomento\DocBuilder\Builder\Widgets\HelloWorld;
 use Goomento\PageBuilder\Builder\Managers\Elements;
 use Goomento\PageBuilder\Builder\Managers\Widgets;
 use Goomento\PageBuilder\BuilderRegister;
@@ -59,7 +60,7 @@ class EntryPoint extends BuilderRegister
     public function registerWidgets(Widgets $widgetsManager)
     {
         $widgetsManager->registerWidgetType(
-            \Goomento\DocBuilder\Builder\Widgets\HelloWorld::class
+            HelloWorld::class
         );
     }
 }

@@ -14,6 +14,11 @@ use Magento\Framework\Phrase;
 class HelloWorld extends AbstractWidget
 {
     /**
+     * Disabled this sample widget
+     */
+    const ENABLED = false;
+
+    /**
      * Unique name of widget
      */
     const NAME = 'hello-world';
