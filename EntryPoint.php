@@ -35,7 +35,7 @@ class EntryPoint extends BuilderRegister
     {
         ThemeHelper::registerStyle(
             'doc-builder-widget',
-            'Goomento_DocBuilder::css/widget.css'
+            ThemeHelper::getProductionResourceUrl('Goomento_DocBuilder/css/widget', '.css')
         );
     }
 
